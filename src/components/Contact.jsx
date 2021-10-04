@@ -10,8 +10,8 @@ import { faTelegramPlane } from "@fortawesome/free-brands-svg-icons";
 import Joi from "joi-browser";
 
 const Contact = () => {
-  const [emailErrors, setEmailErrors] = useState(null);
-  const [messageErrors, setMessageErrors] = useState(null);
+  const [emailErrors, setEmailErrors] = useState("");
+  const [messageErrors, setMessageErrors] = useState("");
   const [sendText, setSendText] = useState("Send");
   let emailRef = useRef("");
   let messageRef = useRef("");
@@ -62,8 +62,10 @@ const Contact = () => {
   };
 
   const handleSubmit = async () => {
-    validate();
-    if (emailErrors || messageErrors) {
+    // validate();
+    validateField("email", emailRef.current.value);
+    validateField("message", messageRef.current.value);
+    if (emailErrors !== null || messageErrors !== null) {
       return;
     }
     setSendText("Sending...");
