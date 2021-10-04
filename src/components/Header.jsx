@@ -12,7 +12,7 @@ const Header = () => {
           <InfoTable />
         </div>
         {/* <div className="rounded-full bg-blue-900 w-2/5 h-full absolute -top-32 -right-40" /> */}
-        <div className="relative right-10 flex flex-col justify-center items-center col-span-1">
+        <div className="relative right-10 flex flex-col justify-center items-center col-span-1 w-3/4">
           <svg
             id="visual"
             viewBox="0 0 900 600"

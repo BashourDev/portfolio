@@ -91,6 +91,9 @@ const Contact = () => {
   };
   return (
     <div className="flex flex-col w-full items-center pt-10 pb-16">
+      <div className="text-3xl text-gray-100">
+        <h2>Contact me</h2>
+      </div>
       <InputField
         type="email"
         placeholder="Enter Your Email :"
