@@ -23,6 +23,12 @@ const InfoTable = () => {
           <TD>Full-stack developer</TD>
         </tr>
         <tr>
+          <TH>education</TH>
+          <TD>
+            bachelor of Informatics Engineering at Al-Hawash Private University
+          </TD>
+        </tr>
+        <tr>
           <TH>skills</TH>
           <TD>
             java and javafx for desktop applications.
