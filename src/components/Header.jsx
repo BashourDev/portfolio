@@ -7,7 +7,7 @@ const Header = () => {
       <div className="text-3xl md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start border-t-2 border-indigo-400">
         <h2>Home</h2>
       </div>
-      <div className="h-full flex flex-col lg:flex-row md:justify-center md:items-center">
+      <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
         <div className="flex flex-col justify-center items-center md:items-start w-full lg:w-1/2 h-full p-3 md:p-10 text-xl text-gray-900 ">
           <InfoTable />
         </div>
