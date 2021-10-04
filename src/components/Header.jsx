@@ -4,15 +4,15 @@ import InfoTable from "./InfoTable";
 const Header = () => {
   return (
     <>
-      <div className="text-3xl pl-40 pt-10 flex flex-col border-t-2 border-indigo-400">
+      <div className="text-3xl md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start border-t-2 border-indigo-400">
         <h2>Home</h2>
       </div>
-      <div className="h-full grid grid-cols-1 lg:grid-cols-2 w-full overflow-y-auto">
-        <div className="flex flex-col justify-center items-start w-1/2 h-full p-10 text-xl text-gray-900 col-span-1">
+      <div className="h-full flex flex-col lg:flex-row md:justify-center md:items-center">
+        <div className="flex flex-col justify-center items-center md:items-start w-full lg:w-1/2 h-full p-3 md:p-10 text-xl text-gray-900 ">
           <InfoTable />
         </div>
         {/* <div className="rounded-full bg-blue-900 w-2/5 h-full absolute -top-32 -right-40" /> */}
-        <div className="relative right-10 flex flex-col justify-center items-center col-span-1 w-3/4">
+        <div className="relative md:right-10 flex justify-center items-center">
           <svg
             id="visual"
             viewBox="0 0 900 600"
@@ -32,7 +32,7 @@ const Header = () => {
           <img
             src="https://cdn0.iconfinder.com/data/icons/occupation-002/64/programmer-programming-occupation-avatar-512.png"
             alt="avatar"
-            className="absolute h-96 w-96"
+            className="absolute h-40 w-40 md:h-96 md:w-96 lg:h-96 lg:w-96"
           />
         </div>
       </div>

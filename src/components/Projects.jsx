@@ -4,7 +4,7 @@ import Card from "./Card";
 const Projects = () => {
   return (
     <>
-      <div className="text-3xl pl-40 pb-20 pt-10 flex flex-col border-t-2 border-indigo-400">
+      <div className="text-3xl md:pl-40 pb-20 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start border-t-2 border-indigo-400">
         <h2>Projects</h2>
       </div>
       <div className="flex flex-col justify-center items-center md:items-start md:pl-96 my-8">

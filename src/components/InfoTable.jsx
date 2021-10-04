@@ -4,7 +4,7 @@ import TD from "./TD";
 
 const InfoTable = () => {
   return (
-    <table className="table-auto w-3/4 md:ml-28 items-center bg-transparent border-collapse">
+    <table className="table-auto lg:ml-28 flex flex-row flex-grow items-center bg-transparent border-collapse">
       <tbody>
         <tr>
           <TH>name</TH>
