@@ -7,8 +7,8 @@ const Header = () => {
       <div className="text-3xl pl-40 pt-10 flex flex-col border-t-2 border-indigo-400">
         <h2>Home</h2>
       </div>
-      <div className="h-full grid grid-cols-1 lg:grid-cols-2 overflow-y-auto">
-        <div className="flex flex-col justify-center items-start w-1/2  h-full p-10 text-xl text-gray-900 col-span-1">
+      <div className="h-full grid grid-cols-1 lg:grid-cols-2 w-full overflow-y-auto">
+        <div className="flex flex-col justify-center items-start w-1/2 h-full p-10 text-xl text-gray-900 col-span-1">
           <InfoTable />
         </div>
         {/* <div className="rounded-full bg-blue-900 w-2/5 h-full absolute -top-32 -right-40" /> */}

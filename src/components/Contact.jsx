@@ -22,26 +22,26 @@ const Contact = () => {
     message: Joi.string().required().min(5),
   };
 
-  const validate = () => {
-    const sch = Joi.object(schema);
-    const result = sch.validate(
-      {
-        email: emailRef.current.value,
-        message: messageRef.current.value,
-      },
-      { abortEarly: false }
-    );
-    if (!result.error) {
-      setEmailErrors(null);
-      setMessageErrors(null);
-    } else {
-      result.error.details.map((er) =>
-        er.path === "email"
-          ? setEmailErrors(er.message)
-          : setMessageErrors(er.message)
-      );
-    }
-  };
+  //   const validate = () => {
+  //     const sch = Joi.object(schema);
+  //     const result = sch.validate(
+  //       {
+  //         email: emailRef.current.value,
+  //         message: messageRef.current.value,
+  //       },
+  //       { abortEarly: false }
+  //     );
+  //     if (!result.error) {
+  //       setEmailErrors(null);
+  //       setMessageErrors(null);
+  //     } else {
+  //       result.error.details.map((er) =>
+  //         er.path === "email"
+  //           ? setEmailErrors(er.message)
+  //           : setMessageErrors(er.message)
+  //       );
+  //     }
+  //   };
 
   const validateField = (name, value) => {
     let err = {};

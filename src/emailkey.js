@@ -1,5 +1,7 @@
-export default {
-  USER_ID: `user_BhzP0vCdbmbwQa744T3PZ`,
-  TEMPLATE_ID: `template_k6fmsh7`,
-  SERVICE_ID: `service_kbvk1la`,
+const obj = {
+  USER_ID: process.env.REACT_APP_USER_ID,
+  TEMPLATE_ID: process.env.REACT_APP_TEMPLATE_ID,
+  SERVICE_ID: process.env.REACT_APP_SERVICE_ID,
 };
+
+export default obj;
