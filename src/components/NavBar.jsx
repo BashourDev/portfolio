@@ -4,7 +4,7 @@ import { NavHashLink } from "react-router-hash-link";
 const NavBar = () => {
   return (
     <>
-      <div className="w-full h-14 flex justify-center md:justify-start px-12 md:px-32 text-xl space-x-10 text-gray-900">
+      <div className="w-full h-14 flex justify-center md:justify-start px-12 md:px-32 text-xl space-x-10 text-gray-900 font-titillium font-semibold">
         <NavHashLink
           to="#home"
           className="py-5 hover:text-indigo-800 border-b-2 hover:border-indigo-500"

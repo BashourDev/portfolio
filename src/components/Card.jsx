@@ -39,9 +39,11 @@ const Card = ({ title, description, image }) => {
         </svg>
         <img src={image} alt="card" className="absolute " />
       </div>
-      <p className="text-2xl py-5 px-2 text-gray-900">{title}</p>
-      <p className="text-gray-500 px-2">{description}</p>
-      <div className="flex flex-col justify-center items-center">
+      <p className="text-2xl py-5 px-2 text-gray-900 font-titillium font-semibold">
+        {title}
+      </p>
+      <p className="text-gray-500 px-2 font-robot font-light">{description}</p>
+      <div className="flex flex-col justify-center items-center font-robot font-light">
         <Button children="github" customStyle="w-1/2" icon={faGithub} />
       </div>
     </div>

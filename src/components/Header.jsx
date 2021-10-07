@@ -11,8 +11,8 @@ const Header = () => {
   }, []);
   return (
     <>
-      <div className="text-3xl md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start border-t-2 border-indigo-400">
-        <h2>Home</h2>
+      <div className="text-3xl font-titillium font-semibold md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start border-t-2 border-indigo-400">
+        <h2 className="font-extralight text-gray-700">Home</h2>
       </div>
       <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
         <div

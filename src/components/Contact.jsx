@@ -92,8 +92,8 @@ const Contact = () => {
     setSendText("Send");
   };
   return (
-    <div className="flex flex-col w-full items-center pt-10 pb-16">
-      <div className="text-3xl text-gray-100">
+    <div className="flex flex-col w-full items-center pt-10 pb-16 font-robot font-light text-gray-900">
+      <div className="text-3xl font-extralight text-gray-100  font-titillium">
         <h2>Contact me</h2>
       </div>
       <InputField
