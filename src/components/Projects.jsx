@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Card from "./Card";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import CreativeMobileImage from "../img/creative-mobile-home.png";
+import CreativePharmacyImage from "../img/creative-pharmacy-home.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -19,12 +21,16 @@ const Projects = () => {
         className="flex flex-col justify-center items-center md:items-start md:pl-96 my-8"
       >
         <Card
-          image="https://www.freeiconspng.com/thumbs/laptop-png/mac-laptop-png-13.png"
+          image={CreativeMobileImage}
           title="Creative Mobile MS"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti
-      incidunt? Maiores, suscipit excepturi delectus itaque distinctio
-      dignissimos dolore mollitia similique in earum voluptatibus placeat, quis
-      totam laborum fugiat non!"
+          description="management system for Mobile and Electronics stores. 
+           keep track of the imports, sales and inventory.
+           supplier and customer profiles.
+           supports serialized products. 
+           specified info about mobile and electronic devices maintenance.
+           tracking store expenses.
+           authentication and authorization system.
+           and much more."
         />
       </div>
       <div
@@ -32,12 +38,16 @@ const Projects = () => {
         className="flex flex-col justify-center items-center md:items-end md:pr-96 my-8"
       >
         <Card
-          image="https://www.freeiconspng.com/thumbs/laptop-png/mac-laptop-png-13.png"
+          image={CreativePharmacyImage}
           title="Creative Pharmacy MS"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti
-      incidunt? Maiores, suscipit excepturi delectus itaque distinctio
-      dignissimos dolore mollitia similique in earum voluptatibus placeat, quis
-      totam laborum fugiat non!"
+          description="management system for Pharmacies. 
+           keep track of the imports, sales and inventory.
+           supplier and customer profiles.
+           supports selling drugs by pills and bottles.
+           keep track of expired batches.
+           tracking store expenses.
+           authentication and authorization system.
+           and much more."
         />
       </div>
     </>
