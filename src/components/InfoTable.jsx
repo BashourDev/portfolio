@@ -79,7 +79,7 @@ const InfoTable = () => {
                 typewriter
                   .pauseFor(5500)
                   .typeString(
-                    "java and javafx for desktop applications. <br />javascript and react.js for front-end web applications. <br />react native for android and ios applications. <br/>php and laravel for back-end web applications. <br/>basic knowlage with python and django framework."
+                    "java and javafx for desktop applications. <br />javascript and react.js for front-end web applications. <br />react native for android and ios applications. <br/>php and laravel for back-end web applications. <br/>basic knowlage of python and django framework."
                   )
                   .start();
               }}

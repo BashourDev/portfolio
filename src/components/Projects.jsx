@@ -13,7 +13,7 @@ const Projects = () => {
   }, []);
   return (
     <>
-      <div className="text-3xl font-titillium font-semibold md:pl-40 pb-20 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start border-t-2 border-indigo-400">
+      <div className="text-3xl font-titillium font-semibold md:pl-40 pb-20 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
         <h2 className="font-extralight text-gray-700">Projects</h2>
       </div>
       <div
