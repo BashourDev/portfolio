@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import InfoTable from "./InfoTable";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import rectangle from "../img/rectangle.svg";
 import circle from "../img/circle.svg";
 import vector from "../img/vector-1.svg";
 import bottomRightDots from "../img/bottom-right-dots.svg";
+import Bio from "./Bio";
 
 const Header = () => {
   useEffect(() => {
@@ -52,9 +52,10 @@ const Header = () => {
         <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
           <div
             data-aos="slide-right"
-            className="flex flex-col justify-center items-center md:items-start w-full lg:w-1/2 h-full p-3 md:p-10 text-xl text-gray-900 "
+            className="flex flex-col justify-start items-center md:items-start w-full lg:w-1/2 h-full p-3 md:p-10 text-xl text-gray-900 "
           >
-            <InfoTable />
+            {/* <InfoTable /> */}
+            <Bio />
           </div>
           {/* <div className="rounded-full bg-blue-900 w-2/5 h-full absolute -top-32 -right-40" /> */}
           <div
