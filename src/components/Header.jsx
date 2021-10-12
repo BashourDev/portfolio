@@ -6,6 +6,7 @@ import circle from "../img/circle.svg";
 import vector from "../img/vector-1.svg";
 import bottomRightDots from "../img/bottom-right-dots.svg";
 import Bio from "./Bio";
+import devDude from "../img/web-dude-white.webp";
 
 const Header = () => {
   useEffect(() => {
@@ -85,7 +86,7 @@ const Header = () => {
             </svg>
             <img
               data-aos="slide-left"
-              src="https://cdn0.iconfinder.com/data/icons/occupation-002/64/programmer-programming-occupation-avatar-512.png"
+              src={devDude}
               alt="avatar"
               className="absolute h-40 w-40 md:h-96 md:w-96 lg:h-96 lg:w-96"
             />
