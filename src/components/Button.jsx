@@ -5,7 +5,7 @@ const Button = ({ children, customStyle, onClick, icon }) => {
   return (
     <>
       <button
-        className={`w-3/4 border-8 rounded-full text-indigo-600 border-indigo-500 mt-5 hover:text-white hover:bg-indigo-500 ${customStyle}`}
+        className={`w-3/4 outline-none border-8 rounded-full text-indigo-600 border-indigo-500 mt-5 hover:text-white hover:bg-indigo-500 ${customStyle}`}
         onClick={onClick}
       >
         <FontAwesomeIcon
