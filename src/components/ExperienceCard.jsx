@@ -10,7 +10,7 @@ const ExperienceCard = ({ image, title, bio, isHighlight }) => {
       }`}
     >
       <img src={image} alt="card" className="my-5 h-1/6 max-h-24" />
-      <h3 className="text-lg md:text-xl font-bold">{title}</h3>
+      <h3 className="text-lg text-center md:text-xl font-bold">{title}</h3>
       <p className="text-base text-center font-titillium md:text-lg my-5 px-12">
         {bio}
       </p>
