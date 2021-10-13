@@ -81,6 +81,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          emailRef.current.value = "";
+          messageRef.current.value = "";
           toast.success(
             "Thank you for contacting me, I will respond as soon as possible"
           );
