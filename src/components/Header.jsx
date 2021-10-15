@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import rectangle from "../img/rectangle.svg";
-import circle from "../img/circle.svg";
-import vector from "../img/vector-1.svg";
+import { motion } from "framer-motion";
 import bottomRightDots from "../img/bottom-right-dots.svg";
 import Bio from "./Bio";
 import devDude from "../img/web-dude-white.webp";
+import RectangleSVG from "./RectangleSVG";
+import CircleSVG from "./CircleSVG";
+import VictorSVG from "./VictorSVG";
 
 const Header = () => {
   useEffect(() => {
@@ -17,36 +18,54 @@ const Header = () => {
   return (
     <>
       <div className="relative">
-        <img
+        {/* <img
           src={rectangle}
           alt="rectangle"
           className="absolute top-20 right-2/3 opacity-50"
-        />
-        <img
-          src={circle}
-          alt="circle"
+        /> */}
+        <motion.div
+          drag
+          dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
+          className="absolute top-20 right-2/3 opacity-50"
+        >
+          <RectangleSVG customStyle="" />
+        </motion.div>
+        <motion.div
+          drag
+          dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
           className="absolute top-10 right-1/3 opacity-60"
-        />
-        <img
-          src={circle}
-          alt="circle"
-          className="absolute bottom-24 w-8 h-8 left-20 opacity-60"
-        />
-        <img
-          src={rectangle}
-          alt="rectangle-2"
-          className="absolute top-2/4 left-2/4 w-8 h-8 opacity-70"
-        />
-        <img
-          src={vector}
-          alt="vector-1"
+        >
+          <CircleSVG />
+        </motion.div>
+
+        <motion.div
+          drag
+          dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
+          className="absolute bottom-24 left-20 opacity-60"
+        >
+          <CircleSVG customStyle="w-8 h-8" />
+        </motion.div>
+        <motion.div
+          drag
+          dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
+          className="absolute top-2/4 left-2/4 opacity-70"
+        >
+          <RectangleSVG customStyle="w-8 h-8" />
+        </motion.div>
+        <motion.div
+          drag
+          dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
           className="absolute top-3/4 right-1/2 opacity-60"
-        />
-        <img
-          src={vector}
-          alt="vector-2"
+        >
+          <VictorSVG />
+        </motion.div>
+        <motion.div
+          drag
+          dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
           className="absolute top-1/4 right-20 opacity-60"
-        />
+        >
+          <VictorSVG />
+        </motion.div>
         <div className="text-3xl font-titillium font-semibold md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
           <h2 className="font-extralight text-gray-700">Home</h2>
         </div>
