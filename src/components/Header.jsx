@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { motion } from "framer-motion";
-import bottomRightDots from "../img/bottom-right-dots.svg";
 import Bio from "./Bio";
 import devDude from "../img/web-dude-white.webp";
 import RectangleSVG from "./RectangleSVG";
 import CircleSVG from "./CircleSVG";
 import VictorSVG from "./VictorSVG";
+import DotsSVG from "./DotsSVG";
 
 const Header = () => {
   useEffect(() => {
@@ -18,11 +18,6 @@ const Header = () => {
   return (
     <>
       <div className="relative">
-        {/* <img
-          src={rectangle}
-          alt="rectangle"
-          className="absolute top-20 right-2/3 opacity-50"
-        /> */}
         <motion.div
           drag
           dragConstraints={{ right: 0, left: 0, top: 0, bottom: 0 }}
@@ -82,11 +77,7 @@ const Header = () => {
             data-aos="fade"
             className="relative md:r-10 flex justify-center items-center"
           >
-            <img
-              src={bottomRightDots}
-              alt="dots"
-              className="absolute bottom-2 right-0 mr-0 opacity-80"
-            />
+            <DotsSVG customStyle="absolute bottom-2 right-0 mr-0 opacity-80" />
             <svg
               id="visual"
               viewBox="0 0 900 600"
