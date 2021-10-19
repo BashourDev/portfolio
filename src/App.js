@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import Contact from "./components/Contact";
 import ExperienceCard from "./components/ExperienceCard";
-import Header from "./components/Header";
+import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import webPage from "./img/web-page.png";
@@ -33,10 +33,10 @@ function App() {
         </header>
         <ToastContainer autoClose={5000} />
         <section
-          id="home"
+          id="about"
           className="relative flex flex-col overflow-x-hidden bg-gradient-to-tr from-white to-indigo-100"
         >
-          <Header />
+          <About />
         </section>
         <h2 className="text-2xl text-center mt-16 font-robot font-bold">
           Specializing in

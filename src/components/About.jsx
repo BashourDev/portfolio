@@ -9,7 +9,7 @@ import CircleSVG from "./CircleSVG";
 import VictorSVG from "./VictorSVG";
 import DotsSVG from "./DotsSVG";
 
-const Header = () => {
+const About = () => {
   useEffect(() => {
     Aos.init({
       duration: 1500,
@@ -62,7 +62,7 @@ const Header = () => {
           <VictorSVG />
         </motion.div>
         <div className="text-3xl font-titillium font-semibold md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
-          <h2 className="font-extralight text-gray-700">Home</h2>
+          <h2 className="font-extralight text-gray-700">About</h2>
         </div>
         <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
           <div
@@ -107,4 +107,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default About;

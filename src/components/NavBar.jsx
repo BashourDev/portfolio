@@ -12,7 +12,7 @@ const NavBar = () => {
           className="py-5 hover:text-indigo-800 border-b-2 hover:border-indigo-500 "
           smooth
         >
-          Home
+          About
         </NavHashLink>
         <NavHashLink
           to="#projects"
