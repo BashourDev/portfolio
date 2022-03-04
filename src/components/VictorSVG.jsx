@@ -13,7 +13,7 @@ const VictorSVG = ({ customStyle }) => {
       <path
         d="M2 7.7957C12.7131 -2.70087 21.4236 3.42213 24.4397 7.7957C28.7828 22.6545 41.2895 13.9869 47 7.7957"
         stroke="#C4C4C4"
-        stroke-width="3"
+        strokeWidth="3"
       />
     </svg>
   );

@@ -16,7 +16,7 @@ const RectangleSVG = ({ customStyle }) => {
         width="55"
         height="55"
         stroke="#C4C4C4"
-        stroke-width="3"
+        strokeWidth="3"
       />
     </svg>
   );

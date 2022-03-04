@@ -10,7 +10,7 @@ const CircleSVG = ({ customStyle }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="29" cy="29" r="27.5" stroke="#C4C4C4" stroke-width="3" />
+      <circle cx="29" cy="29" r="27.5" stroke="#C4C4C4" strokeWidth="3" />
     </svg>
   );
 };
