@@ -30,7 +30,7 @@ const Bio = () => {
             typewriter
               .pauseFor(1200)
               .typeString(
-                "I'm a 22 years old full stack software developer currently living in Homs, Syria. I study informatics Engineering at Al-Hawash Private University."
+                "I'm a 23 years old full stack software developer currently living in Homs, Syria. I study informatics Engineering at Al-Hawash Private University."
               )
               .start();
           }}

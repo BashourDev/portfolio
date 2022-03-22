@@ -23,7 +23,7 @@ const Projects = () => {
         <Card
           image={CreativeMobileImage}
           title="Creative Mobile MS"
-          projectCreator="co-founder"
+          projectCreator="co-creator"
           description="management system for Mobile and Electronics stores. 
            keep track of the imports, sales and inventory.
            supplier and customer profiles.
@@ -41,7 +41,7 @@ const Projects = () => {
         <Card
           image={CreativePharmacyImage}
           title="Creative Pharmacy MS"
-          projectCreator="co-founder"
+          projectCreator="co-creator"
           description="management system for Pharmacies. 
            keep track of the imports, sales and inventory.
            supplier and customer profiles.
