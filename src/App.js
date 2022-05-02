@@ -46,18 +46,18 @@ function App() {
           <ExperienceCard
             image={desktopDev}
             title="Desktop Applications"
-            bio="2 years of experience building desktop applications, mainly with java and javafx."
+            bio="Building desktop applications, mainly with java and javafx."
           />
           <ExperienceCard
             image={webPage}
             title="Full Stack Web Development"
-            bio="1 year of experience creating web applications with javascript (react), php (laravel) and python (django)."
+            bio="Creating web applications with javascript (react), php (laravel) and python (django)."
             isHighlight
           />
           <ExperienceCard
             image={mobileApp}
             title="Mobile Apps"
-            bio="building android and ios applications with react native."
+            bio="Building android and ios applications with react native."
           />
         </section>
         <section

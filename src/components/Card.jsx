@@ -5,7 +5,7 @@ import ProjectCreator from "./ProjectCreator";
 
 const Card = ({ title, description, image, projectCreator }) => {
   return (
-    <div className="w-3/4 md:w-96 pb-5 shadow-lg focus:translate-y-4 rounded-3xl overflow-hidden">
+    <div className="w-full md:w-96 pb-5 shadow-lg focus:translate-y-4 rounded-3xl overflow-hidden">
       <div className="relative flex flex-col justify-center items-center w-full h-72 max-h-72">
         <svg
           id="visual"
