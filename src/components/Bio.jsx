@@ -30,7 +30,7 @@ const Bio = () => {
             typewriter
               .pauseFor(1200)
               .typeString(
-                "I'm a 24 years old full stack software developer currently living in Homs, Syria. I study informatics Engineering at Al-Hawash Private University."
+                "A multi-skilled software engineer with 2+ years of experience in software design, development, and integration, with an extensive track record of developing and maintaining high-quality software solutions."
               )
               .start();
           }}
