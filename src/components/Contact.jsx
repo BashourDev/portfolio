@@ -18,8 +18,9 @@ const Contact = () => {
   const schema = {
     email: Joi.string()
       .email({ minDomainSegments: 2, tlds: { allow: ["com", "net", "org"] } })
-      .required(),
-    message: Joi.string().required().min(5),
+      .required()
+      .label("Email"),
+    message: Joi.string().required().min(5).label("Message"),
   };
 
   //   const validate = () => {

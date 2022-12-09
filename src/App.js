@@ -46,23 +46,23 @@ function App() {
           <ExperienceCard
             image={desktopDev}
             title="Desktop Applications"
-            bio="Building desktop applications, mainly with java and javafx."
+            bio="Building desktop applications, mainly with Java and JavaFx."
           />
           <ExperienceCard
             image={webPage}
             title="Full Stack Web Development"
-            bio="Creating web applications with javascript (react), php (laravel) and python (django)."
+            bio="Creating web applications with javascript (React.js, Next.js) and php (Laravel)"
             isHighlight
           />
           <ExperienceCard
             image={mobileApp}
             title="Mobile Apps"
-            bio="Building android and ios applications with react native."
+            bio="Building cross platform mobile applications with React Native."
           />
         </section>
         <section
           id="projects"
-          className="relative flex flex-col overflow-x-hidden"
+          className="relative flex flex-col overflow-x-hidden lg:px-20"
         >
           <Projects />
         </section>

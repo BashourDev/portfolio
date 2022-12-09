@@ -3,15 +3,26 @@ import Button from "./Button";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ProjectCreator from "./ProjectCreator";
 
-const Card = ({ title, description, image, projectCreator }) => {
+const Card = ({
+  title,
+  description,
+  image,
+  projectCreator,
+  direction,
+  tools = [],
+}) => {
   return (
-    <div className="w-full md:w-96 pb-5 shadow-lg focus:translate-y-4 rounded-3xl overflow-hidden">
-      <div className="relative flex flex-col justify-center items-center w-full h-72 max-h-72">
+    <div
+      className={`w-full md:w-4/5 pb-5 md:pb-0 shadow-lg focus:translate-y-4 rounded-3xl overflow-hidden flex flex-col ${
+        direction === "right" ? "md:flex-row" : "md:flex-row-reverse"
+      }`}
+    >
+      <div className="relative flex flex-col justify-center items-center  h-72 max-h-72 max-w-sm min-w-max">
         <svg
           id="visual"
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
-          className="w-full h-72 bg-cover bg-no-repeat"
+          className="w-full h-full bg-cover bg-no-repeat"
         >
           <defs>
             <filter id="blur1" x="-10%" y="-10%" width="120%" height="120%">
@@ -40,13 +51,29 @@ const Card = ({ title, description, image, projectCreator }) => {
         </svg>
         <img src={image} alt="card" className="absolute " />
       </div>
-      <p className="text-2xl py-5 px-2 text-gray-900 font-titillium font-semibold">
-        {title}
-      </p>
-      {projectCreator && <ProjectCreator text={projectCreator} />}
-      <p className="text-gray-700 px-2 font-robot font-light">{description}</p>
-      <div className="flex flex-col justify-center items-center font-robot font-light">
-        <Button children="github" customStyle="w-1/2" icon={faGithub} />
+      <div className="px-5">
+        <p className="text-2xl py-5 px-2 text-gray-900 font-titillium font-semibold">
+          {title}
+        </p>
+        {projectCreator && <ProjectCreator text={projectCreator} />}
+        <p className="text-gray-700 px-2 font-robot font-light">
+          {description}
+        </p>
+        {/* <div className="flex flex-col justify-center items-center font-robot font-light">
+          <Button children="github" customStyle="w-1/2" icon={faGithub} />
+        </div> */}
+        <div className="flex gap-x-5 py-3">
+          {tools.map((tool) => (
+            <div
+              key={tool}
+              className={
+                "py-2 px-5 bg-gradient-to-r from-indigo-300 to-indigo-400 rounded-full text-sm text-white"
+              }
+            >
+              {tool}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

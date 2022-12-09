@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <>
       <div
-        className={`w-full h-14 flex justify-center md:justify-start px-12 md:px-32 text-xl space-x-10 text-gray-900 font-titillium font-semibold`}
+        className={`w-full h-14 flex justify-center md:justify-start px-12 md:px-48 text-xl space-x-10 text-gray-900 font-titillium font-semibold`}
       >
         <NavHashLink
           to="#"

@@ -8,6 +8,8 @@ import Covid19 from "../img/covid-19-final.png";
 import ECommerce from "../img/e-commerce-final.png";
 import Conference from "../img/conference-final.png";
 import DMS from "../img/dms-final.png";
+import AIM from "../img/aim-final.png";
+import Dentist from "../img/dentist-final.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -16,14 +18,43 @@ const Projects = () => {
     });
   }, []);
   return (
-    <>
-      <div className="text-3xl font-titillium font-semibold md:pl-40 pb-20 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
+    <div className="max-w-7xl mx-auto space-y-10 md:space-y-20 pb-20">
+      <div className="text-3xl font-titillium font-semibold  pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
         <h2 className="font-extralight text-gray-700">Projects</h2>
       </div>
 
       <div
         data-aos="slide-right"
-        className="flex flex-col justify-center items-center md:items-start md:pl-96 my-8 px-3 md:px-0"
+        className="flex flex-col justify-center items-center md:items-start  my-8 px-3 md:px-0"
+      >
+        <Card
+          image={Dentist}
+          title="Dentist Finder"
+          description="Finding nearby dentists or dental laboratories based on the user's geolocation operating in
+Lebanon and Syria.
+It is also a platform for dentists and dental laboratories to showcase their work and advertise
+for themselves."
+          direction={"right"}
+          tools={["laravel", "react"]}
+        />
+      </div>
+      <div
+        data-aos="slide-left"
+        className="flex flex-col justify-center items-center md:items-end  my-8 px-3 md:px-0"
+      >
+        <Card
+          image={AIM}
+          title="A.I.M Official Website"
+          description="Designed, developed, and maintained the website.
+A.I.M is an architecture firm based in Dubai."
+          direction={"left"}
+          tools={["laravel", "react"]}
+        />
+      </div>
+
+      <div
+        data-aos="slide-right"
+        className="flex flex-col justify-center items-center md:items-start  my-8 px-3 md:px-0"
       >
         <Card
           image={ECommerce}
@@ -37,11 +68,13 @@ const Projects = () => {
            Multi-level categorization support.
            Powerfull admin panel.
            and much more."
+          direction={"right"}
+          tools={["laravel", "react"]}
         />
       </div>
       <div
         data-aos="slide-left"
-        className="flex flex-col justify-center items-center md:items-end md:pr-96 my-8 px-3 md:px-0"
+        className="flex flex-col justify-center items-center md:items-end  my-8 px-3 md:px-0"
       >
         <Card
           image={Covid19}
@@ -52,11 +85,13 @@ const Projects = () => {
            Statistical analysis about hospitals current status.
            Two Machine learning models integration to help hospitals identify critically ill patients (still in development).
            and much more."
+          direction={"left"}
+          tools={["laravel", "react"]}
         />
       </div>
       <div
         data-aos="slide-right"
-        className="flex flex-col justify-center items-center md:items-start md:pl-96 my-8 px-3 md:px-0"
+        className="flex flex-col justify-center items-center md:items-start  my-8 px-3 md:px-0"
       >
         <Card
           image={DMS}
@@ -68,11 +103,13 @@ const Projects = () => {
            Tracking files based on their status.
            Assign users to groups.
            and much more."
+          direction={"right"}
+          tools={["laravel", "react"]}
         />
       </div>
       <div
         data-aos="slide-left"
-        className="flex flex-col justify-center items-center md:items-end md:pr-96 my-8 px-3 md:px-0"
+        className="flex flex-col justify-center items-center md:items-end  my-8 px-3 md:px-0"
       >
         <Card
           image={Conference}
@@ -82,11 +119,13 @@ const Projects = () => {
            Users are able to submit their invitations and learn indepth details about the conference.
            Admins can view or search invitations and respond to users.
            and much more."
+          direction={"left"}
+          tools={["laravel", "react"]}
         />
       </div>
       <div
         data-aos="slide-right"
-        className="flex flex-col justify-center items-center md:items-start md:pl-96 my-8 px-3 md:px-0"
+        className="flex flex-col justify-center items-center md:items-start  my-8 px-3 md:px-0"
       >
         <Card
           image={CreativeMobileImage}
@@ -100,11 +139,13 @@ const Projects = () => {
            tracking store expenses.
            authentication and authorization system.
            and much more."
+          direction={"right"}
+          tools={["java", "javafx"]}
         />
       </div>
       <div
         data-aos="slide-left"
-        className="flex flex-col justify-center items-center md:items-end md:pr-96 my-8 px-3 md:px-0"
+        className="flex flex-col justify-center items-center md:items-end  my-8 px-3 md:px-0"
       >
         <Card
           image={CreativePharmacyImage}
@@ -118,9 +159,11 @@ const Projects = () => {
            tracking store expenses.
            authentication and authorization system.
            and much more."
+          direction={"left"}
+          tools={["java", "javafx"]}
         />
       </div>
-    </>
+    </div>
   );
 };
 

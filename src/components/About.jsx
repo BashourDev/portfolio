@@ -61,7 +61,7 @@ const About = () => {
         >
           <VictorSVG />
         </motion.div>
-        <div className="text-3xl font-titillium font-semibold md:pl-40 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
+        <div className="text-3xl font-titillium font-semibold md:pl-48 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
           <h2 className="font-extralight text-gray-700">About</h2>
         </div>
         <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
