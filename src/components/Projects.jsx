@@ -113,12 +113,12 @@ A.I.M is an architecture firm based in Dubai."
       >
         <Card
           image={Conference}
-          title="Invitation Management System"
-          description="Invitation Management System developed for the first international medical conference at Al-Hawash Private University. 
-           An online system for managing invitations for conferences.
-           Users are able to submit their invitations and learn indepth details about the conference.
-           Admins can view or search invitations and respond to users.
-           and much more."
+          title="Conference Attendance"
+          description="Conference Attendance System developed for the first international medical conference at Al-Hawash Private University. 
+           An online system for managing conference attendances.
+           Users are able to submit attendance requests and learn indepth details about the conference.
+           Admins can view or search requests and respond to users.
+           and more."
           direction={"left"}
           tools={["Laravel", "React"]}
         />
