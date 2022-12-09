@@ -30,7 +30,7 @@ const Bio = () => {
             typewriter
               .pauseFor(1200)
               .typeString(
-                "I'm a 23 years old full stack software developer currently living in Homs, Syria. I study informatics Engineering at Al-Hawash Private University."
+                "I'm a 24 years old full stack software developer currently living in Homs, Syria. I study informatics Engineering at Al-Hawash Private University."
               )
               .start();
           }}
@@ -40,7 +40,7 @@ const Bio = () => {
         <NavHashLink
           data-aos="fade-in"
           to="#contact"
-          className="w-64 mt-5"
+          className="w-64 mt-1 lg:mt-5"
           smooth
         >
           <Button icon={faTelegramPlane}>Contact Me</Button>

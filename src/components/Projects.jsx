@@ -35,7 +35,7 @@ Lebanon and Syria.
 It is also a platform for dentists and dental laboratories to showcase their work and advertise
 for themselves."
           direction={"right"}
-          tools={["laravel", "react"]}
+          tools={["Laravel", "React"]}
         />
       </div>
       <div
@@ -48,7 +48,7 @@ for themselves."
           description="Designed, developed, and maintained the website.
 A.I.M is an architecture firm based in Dubai."
           direction={"left"}
-          tools={["laravel", "react"]}
+          tools={["Laravel", "React"]}
         />
       </div>
 
@@ -69,7 +69,7 @@ A.I.M is an architecture firm based in Dubai."
            Powerfull admin panel.
            and much more."
           direction={"right"}
-          tools={["laravel", "react"]}
+          tools={["Laravel", "React"]}
         />
       </div>
       <div
@@ -84,9 +84,9 @@ A.I.M is an architecture firm based in Dubai."
            Admins are able to keep track of hospitals status and forward patients to the nearest hospital which has available rooms.
            Statistical analysis about hospitals current status.
            Two Machine learning models integration to help hospitals identify critically ill patients (still in development).
-           and much more."
+           and more."
           direction={"left"}
-          tools={["laravel", "react"]}
+          tools={["Laravel", "React"]}
         />
       </div>
       <div
@@ -104,7 +104,7 @@ A.I.M is an architecture firm based in Dubai."
            Assign users to groups.
            and much more."
           direction={"right"}
-          tools={["laravel", "react"]}
+          tools={["Laravel", "React"]}
         />
       </div>
       <div
@@ -120,7 +120,7 @@ A.I.M is an architecture firm based in Dubai."
            Admins can view or search invitations and respond to users.
            and much more."
           direction={"left"}
-          tools={["laravel", "react"]}
+          tools={["Laravel", "React"]}
         />
       </div>
       <div
@@ -140,7 +140,7 @@ A.I.M is an architecture firm based in Dubai."
            authentication and authorization system.
            and much more."
           direction={"right"}
-          tools={["java", "javafx"]}
+          tools={["Java", "JavaFx"]}
         />
       </div>
       <div
@@ -160,7 +160,7 @@ A.I.M is an architecture firm based in Dubai."
            authentication and authorization system.
            and much more."
           direction={"left"}
-          tools={["java", "javafx"]}
+          tools={["Java", "JavaFx"]}
         />
       </div>
     </div>

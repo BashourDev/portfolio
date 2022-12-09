@@ -61,13 +61,13 @@ const About = () => {
         >
           <VictorSVG />
         </motion.div>
-        <div className="text-3xl font-titillium font-semibold md:pl-48 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
+        <div className="text-3xl font-titillium font-semibold md:pl-36 2xl:pl-48 pt-10 flex flex-col justify-center items-center md:justify-start md:items-start">
           <h2 className="font-extralight text-gray-700">About</h2>
         </div>
         <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
           <div
             data-aos="slide-right"
-            className="flex flex-col justify-start items-center md:items-start w-full lg:w-1/2 h-full p-3 md:p-10 text-xl text-gray-900 "
+            className="flex flex-col justify-start items-center md:items-start w-full lg:w-1/2 h-full p-3 2xl:p-10 text-xl text-gray-900"
           >
             {/* <InfoTable /> */}
             <Bio />
@@ -75,14 +75,12 @@ const About = () => {
           {/* <div className="rounded-full bg-blue-900 w-2/5 h-full absolute -top-32 -right-40" /> */}
           <div
             data-aos="fade"
-            className="relative md:r-10 flex justify-center items-center"
+            className="relative md:r-10 flex justify-center items-center h-fit"
           >
-            <DotsSVG customStyle="absolute bottom-2 right-0 mr-0 opacity-80" />
             <svg
               id="visual"
               viewBox="0 0 900 600"
               width="900"
-              height="600"
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
               className=""
@@ -101,6 +99,7 @@ const About = () => {
               className="absolute h-40 w-40 md:h-96 md:w-96 lg:h-96 lg:w-96"
             />
           </div>
+          <DotsSVG customStyle="absolute bottom-2 right-0 mr-0 opacity-20 md:opacity-80" />
         </div>
       </div>
     </>
