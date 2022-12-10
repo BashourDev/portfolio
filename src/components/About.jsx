@@ -67,7 +67,7 @@ const About = () => {
         <div className="h-full flex flex-col-reverse md:flex-col lg:flex-row md:justify-center md:items-center">
           <div
             data-aos="slide-right"
-            className="flex flex-col justify-start items-center md:items-start w-full lg:w-1/2 h-full p-3 2xl:p-10 text-xl text-gray-900"
+            className="z-20 flex flex-col justify-start items-center md:items-start w-full lg:w-1/2 h-full p-3 2xl:p-10 text-xl text-gray-900"
           >
             {/* <InfoTable /> */}
             <Bio />
