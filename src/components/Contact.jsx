@@ -90,6 +90,8 @@ const Contact = () => {
         },
         (error) => {
           toast.error("An error has occurred, Please try again!");
+          console.log(error);
+          
         }
       );
     setSendText("Send");
